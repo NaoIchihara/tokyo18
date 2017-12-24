@@ -25,3 +25,7 @@ No. | Section  | Links
 (1) | Lecture  | Slides, Handout
 (2) | Sample   | Dataset, Notebook
 (3) | Exercise | Dataset, Notebook, Solutions
+
+## Resources
+
+- [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/) by Gareth James, Daniela Witten, Trevor Hastie & Robert Tibshirani (Springer 2013).
