@@ -28,4 +28,4 @@ No. | Section  | Links
 
 ## Resources
 
-- *[An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)* by Gareth James, Daniela Witten, Trevor Hastie & Robert Tibshirani (Springer 2013)
+- *[An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)* by G. James, D. Witten, T. Hastie & R. Tibshirani (Springer 2013)
