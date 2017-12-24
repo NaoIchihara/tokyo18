@@ -1,5 +1,5 @@
-> *1st Big Data Machine Learning in Healthcare in Japan@TMDU:*<br>
-> *TMDU-JSICM-NUS-ANZICS-MIT Critical Data Workshops and Datathon 2018*<br>
+> 1st Big Data Machine Learning in Healthcare in Japan@TMDU: <br>
+> TMDU-JSICM-NUS-ANZICS-MIT Critical Data Workshops and Datathon 2018
 
 # WS06: Applied Statistical Learning in Python
 **Sat, 24 Feb 2018 (3.30PM - 5.30PM)**<br>
