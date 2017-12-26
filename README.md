@@ -16,7 +16,9 @@ This workshop aims to introduce clinicians to popular statistical methods used i
   - This will be covered during the main programme at 11:00AM, please attend the session if you are a new user
 
 ## Instructions
-Download the installer for Anaconda (Python 3.6 version) on your respective OS (Windows/Mac/Linux) from https://www.anaconda.com/download/. Run the installer and use all default options when prompted. After installation is complete, make sure you can open Anaconda Navigator and launch Jupyter notebook.
+1. Download the installer for Anaconda (Python 3.6 version) on your respective OS (Windows/Mac/Linux) from https://www.anaconda.com/download/. 
+2. Run the installer and use all default options when prompted. 
+3. After installation is complete, make sure you can open Anaconda Navigator and launch Jupyter notebook.
 
 ## Materials
 
