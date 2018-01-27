@@ -24,7 +24,7 @@ This workshop aims to introduce clinicians to popular statistical methods used i
 
 No. | Section  | Links
 --- | -------- | --------
-(1) | Lecture  | [Slides](lecture/WS06_Slides.pdf), Handout
+(1) | Lecture  | [Slides](lecture/WS06_Slides.pdf), [Handout](lecture/handout.md)
 (2) | Sample   | [Dataset](sample/lungsample.csv), [Notebook](sample/Lung.ipynb)
 (3) | Exercise | [Dataset](exercise/leukemia.csv), [Notebook](exercise/Leukemia.ipynb), Solutions
 
