@@ -1,5 +1,4 @@
-# WS06: Applied Statistical Learning in Python
-**Lecture Notes**
+# Summary of Key Concepts
 
 ## Model Fit
 - asd
@@ -8,6 +7,7 @@
 - asd
 
 ## Support Vector Machine
--
+- asd
 
 ## Cross-validation
+- asd
