@@ -12,10 +12,14 @@
 - At each branching point, only a random subset of all predictors are considered as potential split candidates. This is done to decorrelate the trees.
 
 ## Support Vector Machine
-- asd
+- In SVM, we want to draw a (p-1)-dimensional separating hyperplane between the classes, where p is the number of predictors.
+- When there are multiple possible separating hyperplanes, we choose the one with the largest margin, as it reflects our confidence in its ability to separate the classes.
+- To make the separating hyperplane more robust to outliers, we tolerate some observations to be on the wrong side of the hyperplane. The tuning parameter `C` controls the amount of slack allowed. A smaller `C` results in a softer margin.
+- Given a set of data points that are not linearly separable (on the input space), we use a non-linear kernel function (eg. radial basis function) to project them onto a higher-dimensional (feature) space and draw the linear separating hyperplane in that space. 
 
 ## Cross-validation
-- asd
+- Cross-validation is a resampling method that can be used to tune parameters of a model.
+- In k-fold CV, we split the training data into k folds, take 1 fold to validate and remaining k-1 folds to train. Then calculate the chosen performance metric, repeat k times and average the result.
 
 ## Others
 - asd
