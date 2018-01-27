@@ -2,7 +2,7 @@
 
 ## Model Fit
 - In statistical modelling, we want to estimate f in Y = f(X) + e, where Y is the response (outcome), X is a set of features (predictors), and e is the error.
-- To prevent overfitting, we split the data into **training** and **testing** sets. We develop the model on the training set, then evaluate its performance on the testing set.
+- To prevent overfitting, we split the data into training and testing sets. We develop the model on the training set, then evaluate its performance on the testing set.
 - We choose an error (loss) function appropriate for the prediction task, eg. mean squared error (sum of residuals squared divided by sample size) for regression (quantitative Y), sum of misclassifications for classification (categorical Y).
 
 ## Random Forest
@@ -22,4 +22,5 @@
 - In k-fold CV, we split the training data into k folds, take 1 fold to validate and remaining k-1 folds to train. Then calculate the chosen performance metric, repeat k times and average the result.
 
 ## Others
-- asd
+- A Receiver Operating Characteristic (ROC) curve is a plot of true positive rate (sensitivity) against false positive rate. An ideal classifier will produce a curve that hugs the top left-hand corner, maximizing the area under the curve (AUC).
+- When dealing with imbalanced data, we can under- or over-sample to create balanced datasets, or apply class weights.
