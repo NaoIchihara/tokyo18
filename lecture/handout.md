@@ -15,7 +15,7 @@
 - In SVM, we want to draw a (p-1)-dimensional separating hyperplane between the classes, where p is the number of predictors.
 - If multiple hyperplanes are possible, we choose the one with the largest margin.
 - To make the separating hyperplane more robust to outliers, we tolerate some observations on the wrong side of the hyperplane. The tuning parameter `C` controls the amount of slack given. A smaller `C` results in a softer margin.
-- Given a set of data points that are not linearly separable (on the input space), we use a non-linear kernel function (eg. radial basis function) to project them onto a higher-dimensional (feature) space and draw the linear separating hyperplane in that space. 
+- Given a set of data points that are not linearly separable, we can use a non-linear kernel function (eg. radial basis function, RBF) to project them onto a higher-dimensional space and draw the separating hyperplane in that space. 
 
 ## Cross-validation
 - Cross-validation is a resampling method that can be used to tune parameters of a model.
