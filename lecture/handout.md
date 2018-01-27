@@ -22,5 +22,5 @@
 - In k-fold CV, we split the training data into k folds, take 1 fold to validate and remaining k-1 folds to train. Then calculate the chosen performance metric, repeat k times and average the result.
 
 ## Others
-- A Receiver Operating Characteristic (ROC) curve is a plot of true positive rate (sensitivity) against false positive rate. An ideal classifier will produce a curve that hugs the top left-hand corner, maximizing the area under the curve (AUC).
+- A Receiver Operating Characteristic (ROC) curve is a plot of true positive rate (sensitivity) against false positive rate. An ideal classifier will produce a curve that hugs the top left-hand corner, maximizing the area under the curve (AUC). Random guessing is equivalent to AUC of 0.5.
 - When dealing with imbalanced data, we can under- or over-sample to create balanced datasets, or apply class weights.
