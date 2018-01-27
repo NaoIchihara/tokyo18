@@ -13,8 +13,8 @@
 
 ## Support Vector Machine
 - In SVM, we want to draw a (p-1)-dimensional separating hyperplane between the classes, where p is the number of predictors.
-- When there are multiple possible separating hyperplanes, we choose the one with the largest margin, as it reflects our confidence in its ability to separate the classes.
-- To make the separating hyperplane more robust to outliers, we tolerate some observations to be on the wrong side of the hyperplane. The tuning parameter `C` controls the amount of slack allowed. A smaller `C` results in a softer margin.
+- If multiple hyperplanes are possible, we choose the one with the largest margin.
+- To make the separating hyperplane more robust to outliers, we tolerate some observations on the wrong side of the hyperplane. The tuning parameter `C` controls the amount of slack given. A smaller `C` results in a softer margin.
 - Given a set of data points that are not linearly separable (on the input space), we use a non-linear kernel function (eg. radial basis function) to project them onto a higher-dimensional (feature) space and draw the linear separating hyperplane in that space. 
 
 ## Cross-validation
