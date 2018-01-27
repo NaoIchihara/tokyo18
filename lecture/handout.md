@@ -8,7 +8,7 @@
 ## Random Forest
 - Random forest is an ensemble method combining multiple decision trees to improve prediction accuracy.
 - A decision tree is essentially a series of branching rules based on the predictors.
-- To build a tree, an algorithm called recursive binary splitting is used. A stopping criterion is specified, eg. minimum node size, maximum tree depth.
+- To build a classification tree, we use recursive binary splitting, and aim to increase node purity with each split. A stopping criterion is specified, eg. minimum node size, maximum tree depth.
 - At each branching point, only a random subset of all predictors are considered as potential split candidates. This is done to decorrelate the trees.
 
 ## Support Vector Machine
